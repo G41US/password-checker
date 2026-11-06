@@ -10,5 +10,6 @@ A simple cybersecurity tool to check password strength and verify if it appears 
 
 ## Usage
 ```bash
-python -m password_checker.cli "YourPasswordHere"
+python -m password_checker.cli          # asks for the password without showing it (recommended)
+python -m password_checker.cli "YourPasswordHere"   # also works, but stays in your shell history
 ```
